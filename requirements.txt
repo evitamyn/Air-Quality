@@ -1,4 +1,5 @@
 streamlit
+babel
 pandas
 matplotlib
 seaborn
