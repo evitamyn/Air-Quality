@@ -27,7 +27,9 @@ df_clean['waktu'] = df_clean['hour'].apply(lambda h: 'Rush Hour' if (7 <= h <= 9
 
 #Sidebar
 with st.sidebar:
-    st.image("image.png", width = 200)
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    image_path = os.path.join(current_dir, "image.png")
+    st.image(image_path, width = 200)
     st.markdown("## Filter Data")
     min_date = df_clean["datetime"].min()
     max_date = df_clean['datetime'].max()
@@ -297,6 +299,7 @@ st.pyplot(plt.gcf())
 #===Footer===
 st.markdown("---")
 st.caption("Data: Kualitas Udara Beijing (2013-2017)")
+
 
 
 
