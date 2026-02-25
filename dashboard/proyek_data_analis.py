@@ -11,7 +11,7 @@ sns.set_theme(style='dark')
 plt.rcParams["axes.spines.top"] = True
 plt.rcParams["axes.spines.right"] = True
 
-df_clean = pd.read_csv("data_clean.csv")
+df_clean = pd.read_csv("data/data_clean.csv")
 df_clean['datetime'] = pd.to_datetime(df_clean['datetime'])
 Winter = [12,1,2]
 Spring = [3,4,5]
@@ -296,6 +296,7 @@ st.pyplot(plt.gcf())
 #===Footer===
 st.markdown("---")
 st.caption("Data: Kualitas Udara Beijing (2013-2017)")
+
 
 
 
