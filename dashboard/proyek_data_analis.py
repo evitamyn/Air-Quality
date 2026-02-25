@@ -73,7 +73,7 @@ if len(stations) > 0:
    filter_monthly_mean_pm25 = monthly_mean_pm25[monthly_mean_pm25['station'].isin(stations)]
 
 st.markdown("""
-# 🌬️Beijing Air Quality Dashboard)
+# 🌬️Beijing Air Quality Dashboard
 ### Visualisasi Analisis Kualitas Udara di Beijing (2013–2017)
 """)
 st.markdown("---")  
@@ -296,6 +296,7 @@ st.pyplot(plt.gcf())
 #===Footer===
 st.markdown("---")
 st.caption("Data: Kualitas Udara Beijing (2013-2017)")
+
 
 
 
