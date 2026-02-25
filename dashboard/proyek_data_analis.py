@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
@@ -296,6 +297,7 @@ st.pyplot(plt.gcf())
 #===Footer===
 st.markdown("---")
 st.caption("Data: Kualitas Udara Beijing (2013-2017)")
+
 
 
 
