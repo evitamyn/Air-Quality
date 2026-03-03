@@ -33,14 +33,15 @@ Proyek ini berfokus pada analisis kualitas udara di Beijing untuk mengidentifika
   - `station` : Nama stasiun pemantauan kualitas udara di Beijing
     
 ---
-## Library
+## 🛠️ Library
 - **Programming** : Python
 - **Data Analysis** : Pandas, Numpy, Os
 - **Visualization** : Matplotlib, Seaborn, Folium
 - **Dashboard** : Streamlit
 - **IDE** : Jupyter Notebook
-  
-## Cara Menjalankan dengan Anaconda:
+
+---
+## 🔎 Cara Menjalankan dengan Anaconda:
 ### 1. Clone Repository
 ```
 git clone https://github.com/evitamyn/Air-Quality.git
@@ -60,3 +61,12 @@ pip install -r requirements.txt
 ```
 streamlit run proyek_data_analis.py
 ```
+
+---
+## 🔗 Link Dashboard
+https://beijing-airquality.streamlit.app/
+
+---
+## 👩‍💻 About Me
+**Evita Meilinda Yudhit Nabena**   
+[LinkedIn](https://www.linkedin.com/in/evitameilinda) | [GitHub](https://github.com/evitamyn)
