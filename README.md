@@ -44,7 +44,7 @@ Proyek ini berfokus pada analisis kualitas udara di Beijing untuk mengidentifika
 ## 🔎 Cara Menjalankan dengan Anaconda:
 ### 1. Clone Repository
 ```
-git clone https://github.com/evitamyn/Air-Quality.git
+git clone https://github.com/evitamyn/Beijing-Air-Quality.git
 ```
 ### 2. Buat Environment
 ```
